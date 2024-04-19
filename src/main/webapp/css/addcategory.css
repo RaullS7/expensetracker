@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      padding-left: 300px;
+      padding-top: 20px;
+    }
+    
+
+    
+    label {
+      display: inline-block; /* Make label inline for better placement */
+      margin-right: 5px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    
+    select, input[type="text"] {
+      width: auto; /* Adjust width dynamically based on content */
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+      margin-bottom: 0; /* Remove margin for single-line layout */
+      font-size: 16px;
+    }
+    
+    button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 8px 10px; /* Reduce padding for smaller button */
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    button:hover {
+      background-color: #3e8e41;
+    }
+    
+  .table-container {
+      max-width: 50%; /* Adjust the width as per your requirement */
+      margin: 0 50px; /* Center the container horizontally */
+    }
+    .hidden {
+  display: none;
+}
+    
